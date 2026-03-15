@@ -1,0 +1,14 @@
+# nmap -sV 192.168.1.1 (Starlink Router)
+# Scanned: 2026-03-15
+
+Host is up (0.0016s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT     STATE  SERVICE  VERSION
+22/tcp   open   ssh      OpenSSH 8.4 (protocol 2.0)
+53/tcp   closed domain
+80/tcp   open   http     Golang net/http server
+443/tcp  closed https
+9000/tcp open   grpc
+9001/tcp open   http     Golang net/http server
+9002/tcp open   ssl/dynamid?
+9003/tcp open   grpc
